@@ -11,7 +11,8 @@ import { FamilyMessages } from "./pages/family/FamilyMessages";
 import { FamilyMessageThread } from "./pages/family/FamilyMessageThread";
 import { AppSelector } from "./pages/AppSelector";
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
   {
     path: "/",
     Component: AppSelector,
@@ -36,4 +37,6 @@ export const router = createBrowserRouter([
       { path: "messages/:contactId", Component: FamilyMessageThread },
     ],
   },
-]);
+],
+  { basename: import.meta.env.BASE_URL }
+);
