@@ -1,8 +1,8 @@
 /**
- * Debug Overlay
+ * Switch Person overlay
  *
- * A floating panel that lets developers switch between persons
- * and dates to see how the app reacts to different data.
+ * A floating panel to switch between persons and dates
+ * and see how the app reacts to different data.
  */
 
 import { useState, useMemo } from "react";
@@ -159,7 +159,7 @@ export function DebugOverlay() {
                     letterSpacing: "0.05em",
                   }}
                 >
-                  DEBUG OVERLAY
+                  SWITCH PERSON
                 </span>
               </div>
 

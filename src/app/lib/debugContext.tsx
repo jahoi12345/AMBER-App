@@ -1,8 +1,8 @@
 /**
- * Debug Context
+ * Switch-person / debug context
  *
- * Provides a global debug state that allows switching between
- * persons and dates to see how the app reacts to data changes.
+ * Provides global state for switching between persons and dates
+ * so the app can be viewed with different data.
  */
 
 import {
@@ -24,7 +24,7 @@ import {
 import type { SignalSet } from "./timeTexture/types";
 
 interface DebugState {
-  /** Whether the debug overlay is visible */
+  /** Whether the switch-person overlay is visible */
   isOverlayOpen: boolean;
   setIsOverlayOpen: (open: boolean) => void;
 
