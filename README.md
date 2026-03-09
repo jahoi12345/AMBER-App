@@ -35,3 +35,12 @@ npm run build
 - `src/app/lib/` – data loading, time texture logic, and app context
 
 Use the floating "Switch person" control (bottom-right) to change which person and date the app is showing when testing with the bundled demo data.
+
+## Assets
+
+Project images and diagrams are in [`assets/`](assets/). Hosted on this repo:
+
+- [Haven and Cairn hardware](https://github.com/jahoi12345/AMBER-App/raw/main/assets/haven-and-cairn.png)
+- [Switch Person overlay](https://github.com/jahoi12345/AMBER-App/raw/main/assets/switch-person-overlay.png)
+- [AMBER user flow](https://github.com/jahoi12345/AMBER-App/raw/main/assets/amber-user-flow.png)
+- [AMBER wireframe](https://github.com/jahoi12345/AMBER-App/raw/main/assets/amber-wireframe.png)
